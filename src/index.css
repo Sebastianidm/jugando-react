@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #ccc;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+h1 {
+  color: green;
+}
+
+
+.App {
+  
+  height: 100vh;
+  background: rgb(35,129,215);
+  background: radial-gradient(circle, rgba(35,129,215,1) 28%, rgba(19,15,99,1) 55%);
+}
+
+.carta {
+  width: 200px;
+  margin:100px;
+}
+
+.texto {
+  padding-top: 100px;
 }
